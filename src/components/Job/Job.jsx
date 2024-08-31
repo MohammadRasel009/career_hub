@@ -19,7 +19,6 @@ const Job = ({ job }) => {
           <h2 className="flex"><IoLocation className="text-2xl mr-2"></IoLocation>{location}</h2>
           <h2 className="flex"><AiFillDollarCircle className="text-2xl mr-2"></AiFillDollarCircle>{salary}</h2>
         </div>
-        <p>Job Description : {job_description}</p>
         <p> Job Responsibility : {job_responsibility}</p>
         <p>Educational Requirements : {educational_requirements}</p>
         <p>Experience : {experiences}</p>
